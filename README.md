@@ -11,18 +11,44 @@ Using the Three Rules of TDD, develop the algorithm based on each assertion
 listed below. After each step **commit your work** using `git commit`.
 
 
-### Completing the assignment
-- Fork this repository and then clone it from your own GitHub account. Do not
-  clone this repository directly from the Sheridan GitHub account
-- There are 8 steps to complete. For each step, the following is expected:
-    1. A test to be written with the specified assertion before any code is
-      written.
-    2. Only enough code is written to make the test pass.
-    3. A git commit exists for each step
+## Completing the assignment
+There are 8 steps to complete. For each step, the following is expected:
+
+1. A **test** to be written with the specified assertion before any code is
+  written.
+2. Only enough code is written to **make the test pass**.
+3. A git **commit** exists for each step
 
 
-### Evaluation
-There are 8 steps to this assignment. The expected deliverable
+## Evaluation
+
+This assignment is marked out of 30.
+
+| Points | Description|
+| ------ | ---------- |
+| 24     | Functionality (see matrix) |
+| 6      | Code style (-1 per reported linting error) |
+| **30** | **Total** |
+
+
+
+There are 8 steps to this assignment. Each step is worth 3 points for a total
+of 24 points.
+
+### Evaluation Matrix
+
+| Step | Test assertion | Test passes | Commit Exists |
+| ---- | ---- | ---- | ------ |
+| **#1** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#2** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#3** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#4** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#5** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#6** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#7** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#8** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+
+
 
 ## Requirements
 
