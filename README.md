@@ -35,18 +35,22 @@ This assignment is marked out of 30.
 There are 8 steps to this assignment. Each step is worth 3 points for a total
 of 24 points.
 
+**Note:** The function your write must calculate prime factors for any number
+given. It is not enough to return the expected values using if statements and
+will be considered incomplete / not accepted.
+
 ### Evaluation Matrix
 
-| Step | Test assertion | Test passes | Commit Exists |
+| Step | Test assertion | Code to pass | Commit Exists |
 | ---- | ---- | ---- | ------ |
-| **#1** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| **#2** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| **#3** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| **#4** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| **#5** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| **#6** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| **#7** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| **#8** | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| **#1** | | | |
+| **#2** | | | |
+| **#3** | | | |
+| **#4** | | | |
+| **#5** | | | |
+| **#6** | | | |
+| **#7** | | | |
+| **#8** | | | |
 
 
 
