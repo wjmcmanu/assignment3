@@ -10,11 +10,12 @@ def generate_prime_factors(number):
         raise ValueError
     list_of_ints = []
     if number > 1:
-        if number == 3:
-            list_of_ints.append(3)
-        else:
-            running_total = 2
-            while running_total <= number:
-                list_of_ints.append(2)
-                running_total = running_total * 2
+        remainder = number
+        divisor = 2
+        while remainder != 1:
+            if remainder % divisor == 0:
+                list_of_ints.append(divisor)
+                remainder = remainder / divisor
+            else:
+                divisor += 1
     return list_of_ints

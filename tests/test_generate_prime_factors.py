@@ -23,5 +23,12 @@ def test_with_3():
     assert 3 in prime.generate_prime_factors(3)
 
 def test_with_4():
-    """tet_with_4 will return a list containing a list with 2, specified twice"""
+    """test_with_4 will return a list containing a list with 2, specified
+    twice"""
     assert prime.generate_prime_factors(4).count(2) == 2
+
+def test_with_6():
+    """test_with_6 will return a list containing 3 and 2, when provided a Value
+    of 6"""
+    assert (prime.generate_prime_factors(6).count(2) == 1 and
+            prime.generate_prime_factors(6).count(3) == 1)
