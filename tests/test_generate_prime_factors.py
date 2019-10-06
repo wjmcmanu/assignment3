@@ -19,5 +19,9 @@ def test_with_2():
     assert 2 in prime.generate_prime_factors(2)
 
 def test_with_3():
-    """ test_with_e will return a list containing only the value 3"""
+    """ test_with_3 will return a list containing only the value 3"""
     assert 3 in prime.generate_prime_factors(3)
+
+def test_with_4():
+    """tet_with_4 will return a list containing a list with 2, specified twice"""
+    assert prime.generate_prime_factors(4).count(2) == 2

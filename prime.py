@@ -9,8 +9,12 @@ def generate_prime_factors(number):
     if not isinstance(number, int):
         raise ValueError
     list_of_ints = []
-    if number == 2:
-        list_of_ints.append(2)
-    elif number == 3:
-        list_of_ints.append(3)
+    if number > 1:
+        if number == 3:
+            list_of_ints.append(3)
+        else:
+            running_total = 2
+            while running_total <= number:
+                list_of_ints.append(2)
+                running_total = running_total * 2
     return list_of_ints
