@@ -32,3 +32,7 @@ def test_with_6():
     of 6"""
     assert (prime.generate_prime_factors(6).count(2) == 1 and
             prime.generate_prime_factors(6).count(3) == 1)
+
+def test_with_8():
+    """test_with_8 will return a list containing the value 2, 3 times"""
+    assert prime.generate_prime_factors(8).count(2) == 3
