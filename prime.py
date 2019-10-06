@@ -11,4 +11,6 @@ def generate_prime_factors(number):
     list_of_ints = []
     if number == 2:
         list_of_ints.append(2)
+    elif number == 3:
+        list_of_ints.append(3)
     return list_of_ints

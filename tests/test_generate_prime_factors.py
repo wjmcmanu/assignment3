@@ -17,3 +17,7 @@ def test_with_1():
 def test_with_2():
     """ test_with_2 will return a list containing only the value 2"""
     assert 2 in prime.generate_prime_factors(2)
+
+def test_with_3():
+    """ test_with_e will return a list containing only the value 3"""
+    assert 3 in prime.generate_prime_factors(3)
