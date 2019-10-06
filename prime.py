@@ -4,8 +4,11 @@ given number"""
 
 def generate_prime_factors(number):
     """
-    Will accept an int and will return a list of
+    Will accept an int and will return a list of prime values for that given number
     """
     if not isinstance(number, int):
         raise ValueError
-    return []
+    list_of_ints = []
+    if number == 2:
+        list_of_ints.append(2)
+    return list_of_ints
